@@ -9,6 +9,7 @@ class App extends React.Component {
   };
 
   getMovies = async () => {
+    //fetch
     const {
       data: {
         data: { movies },
